@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <include
+        android:id="@+id/appbar"
+        layout="@layout/layout_all_title" />
+    <ViewStub
+        android:id="@+id/view_stub_empty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout="@layout/layout_empty_error" />
+    <ViewStub
+        android:id="@+id/view_stub_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#e41515" />
+</LinearLayout>
